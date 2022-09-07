@@ -1,0 +1,666 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header */
+
+.container {
+    width: 100%;
+    height: 130px;
+    background-color: greenyellow;
+    box-shadow: 0 0 5px black;
+    position: fixed;
+    margin-top: -14px;
+    z-index: 9;
+
+}
+
+.batasContainer {
+    width: 1270px;
+    height: 85px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.nav-list {
+    position: absolute;
+    width: 1000px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 0 0 10px greenyellow;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 130px;
+
+
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.taksBar {
+    width: 1270px;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.taksBar1 {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+}
+
+.bar1 {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.aBar1 {
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    margin-left: 15px;
+}
+
+.spanBar1 {
+    /* font-weight: bolder; */
+    color: black;
+}
+
+.bar2 {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.aBar2 {
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    margin-right: 15px;
+}
+
+.spanBar2 {
+    font-weight: bolder;
+    color: black;
+}
+
+.roket {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    margin-left: 70px;
+    margin-top: -38px;
+}
+
+.textLogo {
+    font-size: 29px;
+
+}
+
+.search {
+    width: 750px;
+    height: 36px;
+    /* border: 1px solid blue; */
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+.searchInput {
+    width: 800px;
+    height: 36px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 7px black;
+}
+
+.product {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    margin-left: 1100px;
+    margin-top: -35px;
+}
+
+.logoProduct {
+    font-size: 3em;
+    color: black;
+}
+
+/* main */
+
+.containerMain {}
+
+.batasContainerMain {
+    width: 1270px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.gambar1r {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+
+.gambarbkgr {
+    border-radius: 19px;
+    opacity: 0.8;
+    box-shadow: 0 0 10px 5px greenyellow;
+    margin-top: 140px;
+}
+
+
+
+
+.fs {
+    font-size: 35px;
+    padding: 30px;
+    /* border: 1px solid red; */
+}
+.garisFs {
+    width: 10px;
+    height: 70px;
+    background-color: greenyellow;
+    position: absolute;
+    margin-top: -84px;
+    margin-left: 210px;
+}
+.garisProduct {
+    width: 10px;
+    height: 70px;
+    background-color: greenyellow;
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 225px;
+}
+
+
+
+.scrol {
+    max-height: 430px;
+    /* border: 1px solid red; */
+    display: flex;
+    /* overflow-y: hidden; */
+    overflow-x: auto;
+    
+}
+.scrol::-webkit-scrollbar{
+    width: 0;
+}
+
+.scrol .item {
+    min-width: 350px;
+    height: 420px;
+    line-height: 200px;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.item img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin-top: 35px;
+    transition: 0.1s;
+}
+
+.item img:hover {
+    border: 2px solid red;
+}
+
+.classProduct {
+    margin-left: 35px;
+    width: 300px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    font-size: 30px;
+    margin-top: 40px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.p {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: black;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    transition: 0.3s;
+}
+
+
+
+.col {
+    flex-basis: 20%;
+    padding: 5px;
+    margin: 20px;
+    min-width: 150px;
+    /* border: 1px solid blue; */
+    background: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 7px black;
+    transition: 0.1s;
+}
+
+.col:hover {
+    border: 2px solid red;
+}
+
+.col img {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.barang {
+    padding: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.harga {
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* footer */
+
+.containerFooter {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px greenyellow;
+}
+.garisFooter {
+    width: 1270px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+
+}
+.cp {
+    color: greenyellow;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 487px) {
+
+    .container {
+        width: 100%;
+        height: 80px;
+        background-color: greenyellow;
+        box-shadow: 0 0 5px black;
+        margin-top: -14px;
+        z-index: 9;
+    }
+
+    .batasContainer {
+        width: 375px;
+        height: 112px;
+        /* border: 1px solid black; */
+        margin: 0 auto;
+    }
+
+    .nav-list {
+        position: absolute;
+        width: 375px;
+        height: 40px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        /* border: 1px solid black; */
+        background-color: blanchedalmond;
+        box-shadow: 0 0 10px greenyellow;
+        border-bottom: 2px solid black;
+        border-radius: 10px;
+        margin-top: 545px;
+        margin-left: 0px;
+        position: fixed;
+    
+    
+    }
+    
+    .nav-item {
+        list-style-type: none;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        color: black;
+    }
+    .nav-text {
+        display: none;
+    }
+
+    .taksBar {
+        width: 375px;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .taksBar1 {
+        width: 50%;
+        height: 100%;
+        /* border: 1px solid black; */
+        margin-top: 5px;
+    }
+    
+    .bar1 {
+        display: flex;
+        list-style-type: none;
+    
+    }
+    
+    .aBar1 {
+        text-decoration: none;
+        /* border: 1px solid blue; */
+        
+        margin-left: 15px;
+        
+    }
+    
+    .spanBar1 {
+        /* font-weight: bolder; */
+        color: black;
+        margin-top: 50px;
+    }
+    
+    .bar2 {
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+    }
+    
+    .aBar2 {
+        text-decoration: none;
+        /* border: 1px solid blue; */
+        margin-right: 15px;
+    }
+    
+    .spanBar2 {
+        font-weight: bolder;
+        color: black;
+    }
+    
+    .roket {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 40px;
+        /* border: 1px solid blue; */
+        margin-left: 50px;
+        margin-top: -30px;
+    }
+    
+    .textLogo {
+        font-size: 20px;
+    
+    }
+    
+    .search {
+        width: 180px;
+        height: 30px;
+        /* border: 1px solid blue; */
+        margin-left: 190px;
+        margin-top: -35px;
+    }
+    
+    .searchInput {
+        width: 180px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 10px;
+        border: none;
+        box-shadow: 0 0 7px black;
+    }
+    
+    .product {
+        width: 50px;
+        height: 50px;
+        /* border: 1px solid blue; */
+        
+    }
+    
+    .logoProduct {
+        font-size: 1em;
+        color: black;
+    }
+
+    /* main */
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+}
+
+.batasContainerMain {
+    width: 375px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.gambar1r {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+}
+
+.gambarbkgr {
+    width: 375px;
+    border-radius: 19px;
+    opacity: 0.8;
+    box-shadow: 0 0 8px 5px greenyellow;
+    margin-top: 110px;
+    /* display: none; */
+}
+
+
+
+
+.fs {
+    font-size: 28px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin-top: -15px;
+}
+.garisFs {
+    width: 180px;
+    height: 8px;
+    background-color: greenyellow;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.garisProduct {
+    width: 160px;
+    height: 8px;
+    background-color: greenyellow;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 15px;
+}
+
+
+
+.scrol {
+    max-height: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+.scrol .item {
+    min-width: 175px;
+    height: 210px;
+    line-height: 150px;
+    text-align: center;
+    background-color: greenyellow;
+
+
+}
+
+.item img {
+    width: 150px;
+    height: 175px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin-top: 17px;
+    transition: 0.1s;
+}
+
+.item img:hover {
+    border: 2px solid red;
+}
+
+.classProduct {
+    margin-left: 35px;
+    width: 300px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    margin-top: 40px;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+
+.p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+    margin-left: -5px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    transition: 0.3s;
+}
+
+
+
+.col {
+    flex-basis: 10%;
+    padding: 5px;
+    margin: 10px;
+    min-width: 140px;
+    /* border: 1px solid blue; */
+    background: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 7px black;
+    transition: 0.1s;
+}
+
+
+.col img {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.barang {
+    padding: 5px;
+    font-size: 10px;
+    color: gray;
+}
+
+.harga {
+    padding: 2px;
+    font-size: 10px;
+}
+
+/* footer */
+
+.containerFooter {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px greenyellow;
+}
+.garisFooter {
+    width: 375px;
+    height: 200px;
+    display: flex;
+    
+    justify-content: center;
+    /* border: 1px solid white; */
+
+}
+.cp {
+    color: greenyellow;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 0px;
+
+}
+}
+    

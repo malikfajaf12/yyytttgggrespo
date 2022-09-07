@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanetShop-Home</title>
+    <link rel="stylesheet" href="assets/Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="batasContainer">
+                <div class="taksBar">
+                    <div class="taksBar1">
+                        <div class="bar1">
+                            <li><a href="" class="aBar1">
+                                    <span class="spanBar1">Selle Center</span>
+                                    <span></span>
+                                </a></li>
+                            <li><a href="" class="aBar1">
+                                    <span class="spanBar1">Ikuti Kami--</span>
+                                    <span class="fb fa fa-brands fa-facebook"></span>
+                                    <span class="chat fa fa-brands fa-whatsapp" onclick="chat()"></span>
+                                </a></li>
+                        </div>
+                    </div>
+                    <div class="taksBar1">
+                        <div class="bar2">
+                            <li><a href="daftar/index.html" class="aBar2">
+                                    <span class="spanBar2">Daftar</span>
+                                    <span></span>
+                                </a></li>
+                            <li><a href="login/index.html" class="aBar2">
+                                    <span class="spanBar2">Login</span>
+                                    <span></span>
+                                </a></li>
+                        </div>
+                    </div>
+                </div>
+                <span class="roket fa fa-solid fa-shuttle-space"></span>
+                <div class="logo">
+                    <h1 class="textLogo">PlanetShop</h1>
+                </div>
+                <div class="search">
+                    <input class="searchInput" type="text" placeholder="   Search">
+                </div>
+                <div class="product">
+                    <div class="logoProduct fa fa-cart-shopping"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">
+                            <span class="nav-icon fa fa-home"></span>
+                            <span class="nav-text">HOME</span>
+                        </a></li>
+                    <li class="nav-item"><a href="#product" class="nav-link">
+                            <span class="nav-icon fa fa-cart-plus"></span>
+                            <span class="nav-text">PRODUCT</span>
+                        </a></li>
+                    <li class="nav-item"><a href="category/index.html" class="nav-link">
+                            <span class="nav-icon fa fa-list"></span>
+                            <span class="nav-text">CATEGORY</span>
+                        </a></li>
+                    <li class="nav-item"><a href="" class="nav-link">
+                            <span class="nav-icon fa fa-contact-card"></span>
+                            <span class="nav-text">CONTACT</span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="containerMain" >
+            <div class="batasContainerMain">
+                <div class="gambar1r">
+                    <img src="assets/images/background.2.jpg" alt="" class="gambarbkgr">
+                </div>
+                
+                <h1 class="fs">Flash Sale</h1>
+                <div class="garisFs"></div>
+                <div class="scrol">
+                    <div class="item">
+                        <img src="assets/images/product-exclusive.png" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-1.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-2.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-3.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-4.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-5.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-6.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-7.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-8.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-9.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-10.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-11.jpg" alt="">
+                    </div>
+                    <div class="item" >
+                        <img src="assets/images/product-12.jpg" alt="">
+                    </div>
+                </div>
+
+                <h1 class="classProduct" id="product"><span class="p">P</span>RODUCT</h1>
+                <div class="garisProduct"></div>
+                <div class="row" >
+                    <div class="col">
+                        <img src="assets/images/product-1.jpg" alt="" onclick="buy('0')">
+                        <h4 class="barang">Kaos Puma reddongker</h4>
+                        <p class="harga">Rp. 150.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-2.jpg" alt="" onclick="buy('1')">
+                        <h4 class="barang">Sepatu Hrx blackgreen</h4>
+                        <p class="harga">Rp. 700.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-3.jpg" alt="" onclick="buy('2')">
+                        <h4 class="barang">Celana Olahraga grey</h4>
+                        <p class="harga">Rp. 200.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-4.jpg" alt="" onclick="buy('3')">
+                        <h4 class="barang">Kaos Puma navy</h4>
+                        <p class="harga">Rp. 150.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-5.jpg" alt="" onclick="buy('4')">
+                        <h4 class="barang">Sepatu Grey</h4>
+                        <p class="harga">Rp. 800.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-6.jpg" alt="" onclick="buy('5')">
+                        <h4 class="barang">Baju Puma Black</h4>
+                        <p class="harga">Rp. 150.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-7.jpg" alt="" onclick="buy('6')">
+                        <h4 class="barang">Hrx kauskaki</h4>
+                        <p class="harga">Rp. 50.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-8.jpg" alt="" onclick="buy('7')">
+                        <h4 class="barang">Jam fosfil black</h4>
+                        <p class="harga">Rp. 500.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-9.jpg" alt="" onclick="buy('8')">
+                        <h4 class="barang">jam rolexkw </h4>
+                        <p class="harga">Rp. 140.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-10.jpg" alt="" onclick="buy('9')">
+                        <h4 class="barang">Spatu blackRed</h4>
+                        <p class="harga">Rp. 900.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-11.jpg" alt="" onclick="buy('10')">
+                        <h4 class="barang">Sepatu olahraga gry</h4>
+                        <p class="harga">Rp. 500.000</p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/product-12.jpg" alt="" onclick="buy('11')">
+                        <h4 class="barang">Celena olahaga Puma</h4>
+                        <p class="harga">Rp. 240.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <div class="garisFooter">
+                <p  class="cp">Copyright <span id="year"></span>. PlanetShop</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/JS/js.js"></script>
+</body>
+
+</html>
